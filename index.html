@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="ti.png" type="image/png">
+   <script src="progVolume.js" defer></script>
+    <title>Cálculos</title>
+</head>
+<body>
+    <br><br>
+    <button onclick="location.href='cilindro.html'">cilindro</button>
+    <button onclick="location.href='index.html'">Paralelepipedo</button>
+    <br><br>
+    <br><br>
+    <div class="box">
+    <h1>Cálculo do Volume do Paralelepipedo</h1><br>
+    <hr>
+
+    <label for="comp" class="config2">Digite o comprimento do Paralelepipedo: </label><br><br>
+    <input type="number" id="comp" placeholder="comprimento"><br><br>
+
+    <label for="larg" class="config2">Digite a largura do Paralelepipedo: </label><br><br>
+    <input type="number" id="larg" placeholder="largura"><br><br>
+    
+    <label for="altura" class="config2">Digite a altura do Paralelepipedo: </label><br><br>
+    <input type="number" id="altura" placeholder="altura"><br><br>
+
+    <button onclick="calcula_volume()">Calcular</button><br><br>
+    <div id="res"></div>
+</div>
+<br><br><br>
+</body>
+</html>
